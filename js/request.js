@@ -16,7 +16,7 @@ var telagramAuth = async function(){
                     console.log('登录鉴权', res);
                     localStorage.setItem("token", res.data.data.token)
                     localStorage.setItem("userId", res.data.data.id)
-                    return res
+                  
                
                 })
                 .catch(error => {

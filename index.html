@@ -586,35 +586,17 @@
     <script src="js/clipboard.min.js"></script>
     <script type="module">
       function init() {
-         // 初始化 Telegram Web App
-         Telegram.WebApp.ready();
-
-    
-
-        // axios.post(`http://192.168.1.206:10001/web-hook/telagram/auth/login`, dataString, {
-        //     // headers: { 'token': axiosParam.token },
-        //     withCredentials: false,
-        // })
-        //     .then(res => {
-        //         console.log('登录鉴权', res);
-        //         localStorage.setItem("token", res.data.data.token)
-        //         localStorage.setItem("userId", res.data.data.id)
-        //         getTelagramUser()
-        //     })
-        //     .catch(error => {
-        //         console.error('登录鉴权:', error);
-
-        //     });
-        let data = telagramAuth();
-        console.log(data);
+           // 初始化 Telegram Web App
+        Telegram.WebApp.ready();
+        window.addEventListener('scroll', function() {
+            if(window.scrollY>0){
+                document.getElementById('header').classList.add('onscroll')
+            } else{
+                document.getElementById('header').classList.remove('onscroll')
+            }
+        });
+        telagramAuth();
         getTelagramUser();
-            
-        
-        if (data.groupStatus != 1) {
-          showrule();
-        } else {
-          hiderule();
-        }
       }
       init();
 
