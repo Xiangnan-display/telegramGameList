@@ -1,0 +1,356 @@
+html {
+    height: 100%;
+    background: rgba(32, 34, 38, 1);
+    width: 100%;
+}
+
+body {
+    font-family: Inter;
+}
+
+.header {
+    width: 100%;
+    position: fixed;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1)
+}
+
+.invitationearns {
+    padding: 0 16px 40px;
+}
+
+.gradient-text {
+    display: inline-block;
+    color: white;
+    background: linear-gradient(95.14deg, #24FFE5 0%, #2777FF 50%, #8735FF 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    white-space: nowrap;
+}
+
+.fs-32 {
+    font-size: 32px;
+}
+
+.fs-16 {
+    font-size: 16px;
+}
+
+.fweight-700 {
+    font-weight: 700;
+}
+
+.fcfff {
+    color: #fff;
+}
+
+.fc8D9DAB {
+    color: #8D9DAB
+}
+
+.hometext {
+    width: 100vw;
+    height: 120vw;
+    background-image: url('../img/banner-bg.jpg');
+    background-size: contain;
+    padding: 0 20px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.hometextsub {
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.7);
+    margin: 20px auto;
+}
+
+.myenergy {
+    background-image: url('../img/title-top-bg.svg');
+    background-repeat: no-repeat;
+    margin-top: -30px;
+    background-size: contain;
+}
+
+.myenergy>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    border-bottom: 1px solid rgba(44, 46, 51, 1);
+    padding: 40px 16px;
+
+}
+
+.myenergynum {
+    display: flex;
+    margin: 20px auto;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #fff;
+}
+
+.ruleintroduction {
+    color: rgba(141, 157, 171, 1);
+    width: 160px;
+    height: 32px;
+    border: 1px solid rgba(44, 46, 51, 1);
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.ruleintroduction svg {
+    font-size: 60px;
+    margin-left: 10px;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    margin: 40px auto 20px;
+}
+
+.title svg {
+    margin-right: 10px;
+}
+
+.earnblock {
+    height: 44px;
+    margin: 20px auto;
+    border-radius: 8px;
+    background: rgba(44, 46, 51, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+}
+
+.earnblock>div {
+    display: flex;
+    align-items: center;
+}
+
+.earnblock>div>svg {
+    margin-right: 5px;
+}
+
+.myinvitationlink {
+    background: #2C2E33;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px auto;
+}
+
+.subtitle {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.copybox {
+    background: #202226;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 0 10px;
+    color: #5D6B77;
+}
+
+.fc8D9DAB {
+    color: #8D9DAB
+}
+
+.gamelist {
+    margin: 40px auto;
+}
+
+.gamelist ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gamelist ul li {
+    width: 45%;
+    text-align: left;
+    background: rgba(44, 46, 51, 1);
+    border-radius: 8px;
+    height: 272px;
+    
+}
+
+.gamelist ul li img {
+    height: 120px;
+    max-width: 100%;
+}
+
+.gamelist .listtile {
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #fff;
+}
+
+.gamelist .listdes {
+    font-family: DM Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #8D9DAB;
+    margin:4px auto 10px;
+}
+.gamelist .gamelistinfo{
+    padding:0 10px
+}
+
+.linkbtnwrap {
+    height: 40px;
+    padding: 1px;
+    border-radius: 4px;
+    background-image: linear-gradient(94.41deg, #24FFE5 0%, #2777FF 50%, #8735FF 100%);
+
+}
+
+.linkbtn {
+    width:100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:rgba(44, 46, 51, 1);
+    border-radius:4px;
+    color:#fff;
+    font-family: DM Sans;
+font-size: 14px;
+font-weight: 700;
+line-height: 16px;
+text-decoration: none;
+}
+
+.timetag {
+    height: 24px;
+    padding: 2px 4px 2px 4px;
+    border-radius: 4px;
+    background: #1A1C1F;
+    color: #8D9DAB;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+.timetag::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 6px 9px 6px 9px;
+    border-color: transparent #1A1C1F transparent transparent;
+    left: -15px;
+    top: 8px;
+}
+
+.mr10 {
+    margin-right: 10px;
+}
+#copysucess{
+    display: none;
+    position: fixed;
+    left:50%;
+    top:50%;
+    transform: translate(-50%);
+    width: 174px;
+height: 56px;
+border-radius: 8px 0px 0px 0px;
+background: rgba(26, 28, 31, 1);
+align-items: center;
+justify-content: center;
+}
+.rulepop{
+    position:fixed;
+    bottom:0%;
+    left: 0;
+    width:100%;
+    background: rgba(32, 34, 38, 1);
+    background-image: url('../img/title-top-bg.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    color:rgba(141, 157, 171, 1)   ;
+    padding:24px 16px 40px;
+    box-sizing: border-box;
+    transition: all .3s 0s ease-out;
+}
+.rulepop .rulepoptitle{
+display: flex;
+align-items: center;
+color:#fff;
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+line-height: 26px;
+margin-bottom:20px
+
+}
+.rulepop .rulepoptitle svg{
+    margin-right:10px;
+}
+.rulepop p{
+    margin-bottom:10px;
+}
+.rulepop .notice{
+    font-family: Inter;
+font-size: 14px;
+font-weight: 700;
+line-height: 20px;
+text-align: left;
+color:#fff;
+}
+.rulepop .closebtn{
+height: 54px;
+border-radius: 8px;
+display: flex;
+justify-content: center;
+align-items: center;
+    color:#fff;
+    background: linear-gradient(94.41deg, #24FFE5 0%, #2777FF 50%, #8735FF 100%);
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-top:40px;
+}
+#noticepop{
+    text-align: center;
+}
+#noticepop .rulepoptitle{
+    justify-content: center;
+}
+.noticeicon{
+    margin:30px auto
+}
